@@ -16,13 +16,13 @@ workflow_dispatch:
          default: ''
          dependsOn: teamName
          options:
-                optionsFor: HackRockAThon
+                options: HackRockAThon
                     - SQLInjection.xml
                     - BlackBox.xml
-                 optionsFor: HeWasNumber1
+                 options: HeWasNumber1
                     - smoke.xml
                     - regression.xml
                     - sanity.xml
-                 optionsFor: AccountingSucks
+                 options: AccountingSucks
                     - InvoiceChecks.xml
                     - PricingChecks.xml
